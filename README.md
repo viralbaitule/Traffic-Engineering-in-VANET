@@ -1,9 +1,9 @@
 Setup.
  
 In Mininet wifi vm :
-1.	Setting SSH Keys authentication between Mininet Wifi VM and floodlight VM
-  a.	ssh-keygen -t rsa
-  b.	cat ~/.ssh/id_rsa.pub | ssh username@192.168.56.107 "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"
+1.	Setting SSH Keys authentication between Mininet Wifi VM and floodlight VM<br />
+  a.	ssh-keygen -t rsa<br />
+  b.	cat ~/.ssh/id_rsa.pub | ssh username@192.168.56.107 "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"<br />
 where username is floodlight vm username
 and 192.168.56.107 is floodlight vm ip address
 Tutorial : https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
