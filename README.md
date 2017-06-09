@@ -6,7 +6,7 @@ Setup.
   b.	cat ~/.ssh/id_rsa.pub | ssh username@192.168.56.107 "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"<br />
 </t>where username is floodlight vm username and 192.168.56.107 is floodlight vm ip address
 Tutorial : https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
-2.	<b>Modifying VANET.py File.<b>
+2.	<b>Modifying VANET.py File.</b><br />
   a.	Line no. 33: scp -o StrictHostKeyChecking=no rssi.json lubuntu@192.168.56.107:/home/lubuntu/Workspace > scp_out.txt<br />
 Update appropriate floodlight/server vm username,ip address and destination directory.<br />
   b.	Line no. 64: c1 = net.addController( 'c1', controller=RemoteController, ip='192.168.56.107' )<br />
